@@ -1,0 +1,49 @@
+@import "styles/null.scss";
+@import "styles/tipografy.scss";
+@import "styles/variables.scss";
+@import "styles/mixins.scss";
+@import "styles/fonts.scss";
+
+* {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+	color: $textColor;
+}
+
+.no-scrollbar {
+	-ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    &::-webkit-scrollbar {display: none !important;};
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	-ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    &::-webkit-scrollbar {display: none !important;};
+
+	&.lock {
+		overflow: hidden !important;
+	}
+}
+
+.container {
+    max-width: $lg + px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	z-index: 1;
+
+	@include desktop {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+}
+
+.row {
+	display: flex;
+}

@@ -1,0 +1,26 @@
+$lg: 1180;
+$md: 992.98;
+$sm: 767.98;
+$xs: 479.98;
+
+$widescreen: 'min-width:' + $lg + px;
+$desctop: 'min-width:' + $md + px;
+$tablet: 'min-width:' + $sm + px;
+$mobile: 'min-width:' + $md + px;
+
+$textColor: #243138;
+$yellow: #FEC71A;
+$background: #040404;
+$white: #ffffff;
+$text-red: #990000;
+$dark-gray: #626262;
+$dark-gray40: #292929;
+// $dark-gray40: rgba(98, 98, 98, 0.4);
+$pink: #DD066C;
+
+$allages: ALL AGES, sans-serif;
+$blackiron: Blackiron Demo, sans-serif;
+$destrox: Destroy X, sans-serif;
+$tupovyaz: Tupo Vyaz, sans-serif;
+$inter: Inter, sans-serif;
+$bebasneue: Bebas Neue, sans-serif;

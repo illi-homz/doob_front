@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'ALL AGES';
+    src: url('ALLAGESDEMO.eot');
+    src: url('ALLAGESDEMO.eot?#iefix') format('embedded-opentype'),
+        url('ALLAGESDEMO.woff2') format('woff2'),
+        url('ALLAGESDEMO.woff') format('woff'),
+        url('ALLAGESDEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALL AGES';
+    src: url('ALLAGESDEMO-BoldItalic.eot');
+    src: url('ALLAGESDEMO-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ALLAGESDEMO-BoldItalic.woff2') format('woff2'),
+        url('ALLAGESDEMO-BoldItalic.woff') format('woff'),
+        url('ALLAGESDEMO-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALL AGES';
+    src: url('ALLAGESDEMO-Bold.eot');
+    src: url('ALLAGESDEMO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ALLAGESDEMO-Bold.woff2') format('woff2'),
+        url('ALLAGESDEMO-Bold.woff') format('woff'),
+        url('ALLAGESDEMO-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

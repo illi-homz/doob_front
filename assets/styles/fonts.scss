@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'ALL AGES';
+    src: url('~/assets/fonts/all_ages/ALLAGESDEMO.eot');
+    src: url('~/assets/fonts/all_ages/ALLAGESDEMO.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO.woff2') format('woff2'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO.woff') format('woff'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALL AGES';
+    src: url('~/assets/fonts/all_ages/ALLAGESDEMO-BoldItalic.eot');
+    src: url('~/assets/fonts/all_ages/ALLAGESDEMO-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO-BoldItalic.woff2') format('woff2'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO-BoldItalic.woff') format('woff'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALL AGES';
+    src: url('~/assets/fonts/all_ages/ALLAGESDEMO-Bold.eot');
+    src: url('~/assets/fonts/all_ages/ALLAGESDEMO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO-Bold.woff2') format('woff2'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO-Bold.woff') format('woff'),
+        url('~/assets/fonts/all_ages/ALLAGESDEMO-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blackiron Demo';
+    src: url('~/assets/fonts/blackiron/BlackironDemo-Regular.eot');
+    src: url('~/assets/fonts/blackiron/BlackironDemo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/blackiron/BlackironDemo-Regular.woff2') format('woff2'),
+        url('~/assets/fonts/blackiron/BlackironDemo-Regular.woff') format('woff'),
+        url('~/assets/fonts/blackiron/BlackironDemo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Destroy X';
+    src: url('~/assets/fonts/destroy_x/DestroyX.eot');
+    src: url('~/assets/fonts/destroy_x/DestroyX.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/destroy_x/DestroyX.woff2') format('woff2'),
+        url('~/assets/fonts/destroy_x/DestroyX.woff') format('woff'),
+        url('~/assets/fonts/destroy_x/DestroyX.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tupo Vyaz';
+    src: url('~/assets/fonts/tupo_vyaz/TupoVyaz-Regular.eot');
+    src: url('~/assets/fonts/tupo_vyaz/TupoVyaz-Regular.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Regular.woff2') format('woff2'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Regular.woff') format('woff'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tupo Vyaz';
+    src: url('~/assets/fonts/tupo_vyaz/TupoVyaz-Thin.eot');
+    src: url('~/assets/fonts/tupo_vyaz/TupoVyaz-Thin.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Thin.woff2') format('woff2'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Thin.woff') format('woff'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tupo Vyaz';
+    src: url('~/assets/fonts/tupo_vyaz/TupoVyaz-Bold.eot');
+    src: url('~/assets/fonts/tupo_vyaz/TupoVyaz-Bold.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Bold.woff2') format('woff2'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Bold.woff') format('woff'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tupo Vyaz';
+    src: url('~/assets/fonts/tupo_vyaz/TupoVyaz-ThinCondensed.eot');
+    src: url('~/assets/fonts/tupo_vyaz/TupoVyaz-ThinCondensed.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-ThinCondensed.woff2') format('woff2'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-ThinCondensed.woff') format('woff'),
+        url('~/assets/fonts/tupo_vyaz/TupoVyaz-ThinCondensed.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('~/assets/fonts/inter/Inter-Medium.eot');
+    src: url('~/assets/fonts/inter/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/inter/Inter-Medium.woff2') format('woff2'),
+        url('~/assets/fonts/inter/Inter-Medium.woff') format('woff'),
+        url('~/assets/fonts/inter/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('~/assets/fonts/inter/Inter-Light.eot');
+    src: url('~/assets/fonts/inter/Inter-Light.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/inter/Inter-Light.woff2') format('woff2'),
+        url('~/assets/fonts/inter/Inter-Light.woff') format('woff'),
+        url('~/assets/fonts/inter/Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('~/assets/fonts/inter/Inter-Regular.eot');
+    src: url('~/assets/fonts/inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/inter/Inter-Regular.woff2') format('woff2'),
+        url('~/assets/fonts/inter/Inter-Regular.woff') format('woff'),
+        url('~/assets/fonts/inter/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('~/assets/fonts/inter/Inter-Bold.eot');
+    src: url('~/assets/fonts/inter/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/inter/Inter-Bold.woff2') format('woff2'),
+        url('~/assets/fonts/inter/Inter-Bold.woff') format('woff'),
+        url('~/assets/fonts/inter/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('~/assets/fonts/inter/Inter-Thin.eot');
+    src: url('~/assets/fonts/inter/Inter-Thin.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/inter/Inter-Thin.woff2') format('woff2'),
+        url('~/assets/fonts/inter/Inter-Thin.woff') format('woff'),
+        url('~/assets/fonts/inter/Inter-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('~/assets/fonts/bebas_neue/BebasNeue-Regular.eot');
+    src: url('~/assets/fonts/bebas_neue/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/bebas_neue/BebasNeue-Regular.woff2') format('woff2'),
+        url('~/assets/fonts/bebas_neue/BebasNeue-Regular.woff') format('woff'),
+        url('~/assets/fonts/bebas_neue/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
