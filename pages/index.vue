@@ -26,17 +26,18 @@
             <SwiperSlide
                 v-for="banner in allBanners"
                 :key="banner?.id"
-                :style="`background-image: url(${SERVER_URL + banner?.img});`"
+                :style="`background-image: url(${MEDIAFILES_URL + banner?.img});`"
                 class="info__slide">
                 <div class="info__slide-logo">
                     <MainLogo />
                 </div>
             </SwiperSlide>
         </Swiper>
-        <div class="container info__block info__events" id="events" style="height: 100vh;">
+        <div class="container info__block info__events" id="events" style="height: 100vh">
             <h2 class="info__block-title">Events</h2>
+            <Events :items="allEvents" />
         </div>
-        <div class="container info__block info__services" id="services" style="height: 100vh;">
+        <div class="container info__block info__services" id="services" style="height: 100vh">
             <h2 class="info__block-title">Servise price</h2>
         </div>
         <div class="info__contacts-wrapper" id="contacts">
@@ -57,10 +58,14 @@
                         </div>
                     </li>
                     <li>
-                        <nuxt-link to="https://instagram.com" target="_blank" class="info__social-link"><InstaSvg /></nuxt-link>
+                        <nuxt-link to="https://instagram.com" target="_blank" class="info__social-link"
+                            ><InstaSvg
+                        /></nuxt-link>
                         <nuxt-link to="https://tg.com" target="_blank" class="info__social-link"><TgSvg /></nuxt-link>
                         <nuxt-link to="https://vk.com" target="_blank" class="info__social-link"><VkSvg /></nuxt-link>
-                        <nuxt-link to="https://youtube.com" target="_blank" class="info__social-link"><YoutubeSvg /></nuxt-link>
+                        <nuxt-link to="https://youtube.com" target="_blank" class="info__social-link"
+                            ><YoutubeSvg
+                        /></nuxt-link>
                     </li>
                 </ul>
             </div>
@@ -82,17 +87,24 @@ import InstaSvg from "@/assets/icons/insta-round.svg";
 import TgSvg from "@/assets/icons/tg-round.svg";
 import VkSvg from "@/assets/icons/vk-round.svg";
 import YoutubeSvg from "@/assets/icons/youtube-round.svg";
+import { EventType } from "~/types/events";
+
+const config = useRuntimeConfig();
+const MEDIAFILES_URL = config.public.mediafilesUrl;
 
 useHead({
-    title: 'Doob records'
-})
+    title: "Doob records",
+});
 
-const SERVER_URL = "http://localhost:8000/mediafiles/";
 const {
     data: { value: allBannersValue },
 } = await useAsyncGql("banners");
+const {
+    data: { value: allEventsValue },
+} = await useAsyncGql("events");
 
 const allBanners = toRaw(allBannersValue)?.allBanners;
+const allEvents = toRaw(allEventsValue)?.allEvents as EventType[];
 </script>
 
 <style lang="scss">
@@ -239,7 +251,7 @@ const allBanners = toRaw(allBannersValue)?.allBanners;
         display: flex;
         gap: 40px;
     }
-    
+
     & &__bullet {
         position: relative;
         width: 24px;
@@ -248,11 +260,11 @@ const allBanners = toRaw(allBannersValue)?.allBanners;
         transition: transform 1s ease;
         background: linear-gradient(180deg, #990000 0%, rgba(153, 0, 0, 0) 115%);
         cursor: pointer;
-        transform: scaleX(.6);
+        transform: scaleX(0.6);
 
         &::before,
         &::after {
-            content: '';
+            content: "";
             width: 100%;
             height: 100%;
             position: absolute;
@@ -267,11 +279,16 @@ const allBanners = toRaw(allBannersValue)?.allBanners;
             top: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(50% 50% at 50% 50%, rgba(239, 0, 0, 0) 0%, #EF0000 25.52%, rgba(239, 0, 0, 0) 98.44%);
+            background: radial-gradient(
+                50% 50% at 50% 50%,
+                rgba(239, 0, 0, 0) 0%,
+                #ef0000 25.52%,
+                rgba(239, 0, 0, 0) 98.44%
+            );
         }
-        
+
         &::after {
-            background: url('~/assets/icons/activeSlide.svg') center / cover no-repeat;
+            background: url("~/assets/icons/activeSlide.svg") center / cover no-repeat;
         }
     }
 

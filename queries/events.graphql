@@ -1,0 +1,16 @@
+query events {
+  allEvents {
+    id
+    title
+    caption
+    price
+    date
+    time
+    photo
+    video
+    timestamp
+    tags
+    address
+    isComplete
+  }
+}

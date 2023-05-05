@@ -5,6 +5,7 @@ export default defineNuxtConfig({
         apiUrl: "",
         public: {
             apiBase: "/api",
+            mediafilesUrl: "/mediafiles/",
         },
     },
     app: {
@@ -31,6 +32,11 @@ export default defineNuxtConfig({
                 scss: {
                     additionalData: '@use "@/assets/styles.scss" as *;',
                 },
+            },
+        },
+        server: {
+            proxy: {
+                "/mediafiles": "http://127.0.0.1:8000",
             },
         },
     },
